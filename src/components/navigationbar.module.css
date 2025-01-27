@@ -26,12 +26,31 @@
   font-weight: bolder;
 }
 
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
 .searchbar {
-  margin-top: 10px;
-  height: 30px;
-  width: 500px;
+  width: 100%;
+  padding: 10px 10px 10px 45px;
+  border: 1px solid #ccc;
   border-radius: 50px;
-  border: 0.5px solid #aaaaaa;
+  outline: none;
+  font-size: 14px;
 }
 
 .links {
