@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 130px;
+}
+
+.navbarfirst {
+  margin: 10px 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbarsecond {
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color: brown;
+  font-weight: bolder;
+}
+
+.searchbar {
+  margin-top: 10px;
+  height: 30px;
+  width: 500px;
+  border-radius: 50px;
+  border: 0.5px solid #aaaaaa;
+}
+
+.links {
+  margin-top: 20px;
+}
