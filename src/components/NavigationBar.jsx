@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import style from "./navigationbar.module.css";
 
 export default function NavigationBar() {
@@ -24,6 +25,7 @@ export default function NavigationBar() {
           <h3>Grapes</h3>
         </div>
       </header>
+      <Footer />
     </div>
   );
 }
