@@ -19,6 +19,10 @@ export default function HomePage() {
       </div>
       <div>
         <img src={image2}></img>
+        <p>$99</p>
+        <p>Casa Piene</p>
+        <p>Cabernet Sauvignon</p>
+        <p>Nepa Valley, United State</p>
       </div>
     </div>
   );
