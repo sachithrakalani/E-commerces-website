@@ -1,9 +1,10 @@
 import Footer from "./Footer";
+import HomePage from "./HomePage";
 import style from "./navigationbar.module.css";
 
 export default function NavigationBar() {
   return (
-    <div style={{ position: "fixed", width: "100%" }}>
+    <div style={{ position: "", width: "100%" }}>
       <header className={style.navbar}>
         <div className={style.navbarfirst}>
           <h3 className={style.title}>VIVINO</h3>
@@ -25,7 +26,8 @@ export default function NavigationBar() {
           <h3>Grapes</h3>
         </div>
       </header>
-      <Footer />
+      <HomePage />
+      {/* <Footer /> */}
     </div>
   );
 }
