@@ -1,27 +1,48 @@
+import style from "./addWinesPopup.module.css";
+
 export default function AddWinesPopup() {
   return (
-    <div>
-      <button>Add Wines</button>
+    <div className={style.container}>
+      <button className={style.addBtn}>Add Wines</button>
 
-      <div>
-        <div>
-          <div>
-            <h2>Add Wine</h2>
-            <button>✖</button>
+      <div className={style.innerContainer}>
+        <div className={style.popup}>
+          <div className={style.headerStyle}>
+            <h2 style={{ margin: 0 }}>Add Wine</h2>
+            <button className={style.closeBtn}>✖</button>
           </div>
 
-          <div>
-            <input type="text" placeholder="Enter Wine name" /><br /><br />
-            <input type="text" placeholder="Enter Wine Price" /><br /><br />
-            <input type="text" placeholder="Enter Wine Description" /><br /><br />
-            <input type="text" placeholder="Enter Wine Manufacture Date" /><br /><br />
-            <input type="text" placeholder="Enter Wine Expiration Date" /><br /><br />
+          <div className={style.inputField}>
+            <input
+              type="text"
+              placeholder="Enter Wine name"
+              className={style.input}
+            />
+            <input
+              type="text"
+              placeholder="Enter Wine Price"
+              className={style.input}
+            />
+            <input
+              type="text"
+              placeholder="Enter Wine Description"
+              className={style.input}
+            />
+            <input
+              type="text"
+              placeholder="Enter Wine Manufacture Date"
+              className={style.input}
+            />
+            <input
+              type="text"
+              placeholder="Enter Wine Expiration Date"
+              className={style.input}
+            />
           </div>
 
-          <button>Submit</button>
+          <button className={style.submitBtn}>Submit</button>
         </div>
       </div>
     </div>
   );
 }
-

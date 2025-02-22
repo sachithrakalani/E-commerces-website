@@ -1,5 +1,6 @@
 import image from "./../../public/assets/images/1st.avif";
 import image2 from "./../../public/assets/images/2nd.png";
+import AddWinesPopup from "./AddWinesPopup";
 import Footer from "./Footer";
 import style from "./homepage.module.css";
 
@@ -36,6 +37,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      <AddWinesPopup />
       <Footer />
     </div>
   );
