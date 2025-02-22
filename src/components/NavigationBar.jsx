@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import HomePage from "./HomePage";
 import style from "./navigationbar.module.css";
 
@@ -16,7 +15,7 @@ export default function NavigationBar() {
             />
           </div>
           <div className={style.links}>
-          <i className="fas fa-user" style={{ marginRight: "25px" }}></i>
+            <i className="fas fa-user" style={{ marginRight: "25px" }}></i>
             <i className={`fas fa-shopping-cart`}></i>
           </div>
         </div>
@@ -27,7 +26,6 @@ export default function NavigationBar() {
         </div>
       </header>
       <HomePage />
-      {/* <Footer /> */}
     </div>
   );
 }
