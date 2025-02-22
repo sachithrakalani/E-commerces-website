@@ -31,12 +31,11 @@ export default function HomePage() {
           </div>
           <div className={style.details}>
             <div>Casa Piene</div>
-            <div style={{ fontWeight:"bold"}}>Cabernet Sauvignon</div>
+            <div style={{ fontWeight: "bold" }}>Cabernet Sauvignon</div>
             <div>Nepa Valley, United State</div>
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );
